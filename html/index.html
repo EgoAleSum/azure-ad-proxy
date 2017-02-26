@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="site-wrapper">
+
+    <div class="site-wrapper-inner">
+
+      <div class="cover-container">
+
+        <div class="inner cover">
+          <h1 class="cover-heading">Authentication required</h1>
+          <p class="lead">Please click on the button below to authenticate with your Azure Active Directory account.</p>
+          <p class="lead">
+            <button id="loginBtn" class="btn btn-lg btn-secondary">Login with Azure Active Directory</button>
+          </p>
+        </div>
+
+        <div class="mastfoot">
+          <div class="inner">
+            <p>Powered by azure-ad-proxy</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="js.cookie.js" type="text/javascript"></script>
+  <script src="https://secure.aadcdn.microsoftonline-p.com/lib/1.0.14/js/adal.min.js" type="text/javascript"></script>
+  <script src="config.js" type="text/javascript"></script>
+  <script src="azure-ad-proxy.js" type="text/javascript"></script>
+
+</body>
+</html>
